@@ -72,3 +72,8 @@ To install GenerativeModels after download, move into the
 GenerativeModels directory and run this command:
 
 python setup.py install
+
+# Preparation of Dataset and Important Information
+
+After the download of the LungCT dataset, 3D DecathlonDataset should be transformed to 2D Normal/Abnormal Images 
+by using 'MSD-LungCT-Transform.ipynb' notebook. This notebook creates normal and abnormal 2D image slices directories in the working directory. To run the project notebook 'anomaly_detection_LungCT.ipynb', notebooks, GenerativeModels directory, dataset.json and 2D image slices directory should be located in the working directory.
